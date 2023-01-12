@@ -1,8 +1,8 @@
-let swapTheme = document.getElementById("swap");
-let buttonTheme = document.querySelector("#swap");
+let appTheme = document.querySelector("#app");
+let buttonTheme= document.querySelector("#swap");
 
 
-swapTheme.onclick = function () {
-    document.body.classList.toggle("night");
+ function swapTheme() {
+    appTheme.classList.toggle("night");
     buttonTheme.classList.toggle("button_night");
 }
